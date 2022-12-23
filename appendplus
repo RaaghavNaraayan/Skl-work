@@ -1,0 +1,6 @@
+with open("journal.txt","r") as f:
+    str=f.read()
+    l=str.split()
+    for i in l:
+        if i[0]=="a" or i[0]=="a":
+            print(i)

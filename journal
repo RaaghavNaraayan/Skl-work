@@ -1,0 +1,14 @@
+with open("journal.txt","w") as f:
+    a=input("Enter the day: ")
+    b=eval(input("Enter the deatils in the form of a list: "))
+    f.writelines(a)
+    f.writelines(b)
+
+with open("journal.txt","a"):
+    c=input("Enter 1 if you wish to add more details or enter 2 to exit: ")
+    if c==1:
+        b=eval(input("Enter the deatils in the form of a list: "))
+        f.writelines(b)
+    else:
+        print("Program ended")
+        

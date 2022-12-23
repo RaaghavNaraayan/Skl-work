@@ -1,0 +1,2 @@
+s="cmrnps"
+len(s)

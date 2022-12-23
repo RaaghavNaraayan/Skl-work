@@ -1,0 +1,4 @@
+Variable names cannot start with a number
+Variable names cannot be python keywords
+Variable names cannot contain whitespaces or special characters other than underscore
+Variable names can be the length but need to be relevant
